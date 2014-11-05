@@ -1,16 +1,25 @@
 <?
-class Home extends CI_Controller {
+class Home extends MY_Controller {
 
 	function __construct() {
 		parent::__construct();
-		$this -> load -> helper('url');
-		// Your own constructor code
 	}
 
 	function index() {
-		$this -> load -> view('lib');
-		$this -> load -> view('header');
-		$this -> load -> view('home');
+		$this -> loadHead('home');
+		$this -> load -> view('home/index');
+		$this -> load -> view('footer');
+	}
+
+	function about() {
+		$this -> loadHead('about');
+		$this -> load -> view('home/about');
+		$this -> load -> view('footer');
+	}
+
+	function contact() {
+		$this -> loadHead('contact');
+		$this -> load -> view('home/contact');
 		$this -> load -> view('footer');
 	}
 
