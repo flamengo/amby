@@ -15,7 +15,8 @@
 		width: 100%;
 		/* Set the fixed height of the footer here */
 		height: 60px;
-		background-color: #f5f5f5;
+		background: #111;
+		color: #ccc;
 	}
 	/* Custom page CSS
 	 -------------------------------------------------- */
@@ -30,7 +31,8 @@
 </style>
 <div class="footer">
 	<div class="container">
-		<p class="text-muted">
+		<br>
+		<p>
 			Copyright 2014 Ambient Lighting, All right reserved.
 		</p>
 	</div>
