@@ -51,7 +51,7 @@
 				<a class='<? echo $home['active']?>' href="<? echo $home['link']?>">Home</a>
 			</div>
 			<div class='col-md-1 nav' align="center">
-				<a class='<? echo $products['active']?>' href="<? echo $products['link']?>">Products</a>
+				<a class='<? echo $product['active']?>' href="<? echo $product['link']?>">Products</a>
 			</div>
 			<div class='col-md-1 nav' align="center">
 				<a class='<? echo $about['active']?>'  href="<? echo $about['link']?>">About</a>

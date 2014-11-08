@@ -13,9 +13,9 @@ class MY_Controller extends CI_Controller {
 				'link' => '/home',
 				'active' => $active == 'home' ? 'active' : ''
 			),
-			'products' => array(
+			'product' => array(
 				'link' => '/product',
-				'active' => $active == 'products' ? 'active' : ''
+				'active' => $active == 'product' ? 'active' : ''
 			),
 			'about' => array(
 				'link' => '/home/about',
