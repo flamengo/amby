@@ -6,9 +6,9 @@ class Home extends MY_Controller {
 	}
 
 	function index() {
-		$this -> loadHead('home');
-		$this -> load -> view('home/index');
-		$this -> load -> view('footer');
+		$this -> load -> view('lib');
+		$this -> load -> view('header2');
+		$this -> load -> view('home/carousel');
 	}
 
 	function about() {
