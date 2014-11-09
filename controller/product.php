@@ -13,5 +13,13 @@ class Product extends MY_Controller {
 		$this -> load -> view('footer');
 	}
 
+	function chandelier() {
+		$this -> index();
+	}
+
+	function lamp() {
+		$this -> index();
+	}
+
 }
 ?>
